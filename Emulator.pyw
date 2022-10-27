@@ -1,8 +1,6 @@
 ﻿#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-#Iniziamo importando tutti i moduli utili:
-
 import os, copy, pygame
 import enigma               #'enigma' è il modulo da me creato contenente la struttura della Macchina Enigma.      
 from string import ascii_uppercase as alfabeto
