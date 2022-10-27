@@ -1,4 +1,4 @@
-﻿#!/usr/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import os, copy, pygame
@@ -511,7 +511,7 @@ while attivo:
         attivo=False                                                    #termina il loop e chiude il programma se si preme ESC o la X
 
     if click(evento,istruzioni.hitbox[0],istruzioni.hitbox[1]):
-        os.popen(os.path.join(directory,'README.txt'))
+        os.popen(os.path.join(directory,'resources', 'istruzioni.txt'))
         
     if not any([lunotto.u==None,lunotto.d==None,lunotto.t==None, lunotto.q==None]):
         
