@@ -1,3 +1,4 @@
 # Enigma Machine Emulator
 
-This Program emulates exactly how the famous Enigma Machine, used by Nazi Germany during WW2 to encode messages, worked.
+This program, coded using the python library pygame, emulates exactly how the famous Enigma Machine, used by Nazi Germany during WW2 to encrypt messages, worked.
+In the settings there are historically accurate choices for rotors, reflectors and plugboard.
